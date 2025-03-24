@@ -13,6 +13,7 @@ import { Navigation } from 'swiper/modules';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUpwork, faFiverr, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FaFiverr } from "react-icons/fa6"; // Fiverr icon from React Icons
+import Head from "next/head";
 
 
 export default function Home() {
@@ -163,6 +164,18 @@ export default function Home() {
   const menuItems = ["Home", "About", "How It Works", "Testimonial", "Contact"];
   return (
     <>
+          <Head>
+        <title>RKWEB - DevOps & Cloud Solutions</title>
+        <meta name="description" content="RKWEB is a DevOps-focused agency specializing in building scalable, efficient solutions for businesses." />
+        <meta name="keywords" content="DevOps, Cloud Solutions, CI/CD, Scalability, Automation" />
+        <meta name="author" content="RKWEB Team" />
+        
+        {/* Open Graph for social media */}
+        <meta property="og:title" content="RKWEB - DevOps & Cloud Solutions" />
+        <meta property="og:description" content="Delivering high-quality digital solutions with seamless integration and rapid deployment." />
+        <meta property="og:image" content="/agency.png" />
+        <meta property="og:url" content="https://rkweb.dev" />
+      </Head>
 
       <div className="bg-white min-h-screen font-[Inter] relative">
         {/* Navbar */}
@@ -379,7 +392,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-6">
+      <div className="pt-10 pb-10 bg-black text-white min-h-screen flex flex-col items-center justify-center px-6">
         <div className="max-w-5xl w-full">
           <div className="flex justify-between items-center mb-10">
             <div className="bg-white text-black px-4 py-1 rounded-full text-sm font-semibold">RKweb Agency</div>
