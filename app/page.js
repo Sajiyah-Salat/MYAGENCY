@@ -92,7 +92,7 @@ export default function Home() {
       name: "Tobias Jany",
       position: "Senior Designer at Design Studio",
       image: "/tobias.jpeg",
-      text: "I had the pleasure of working with Sajiya Das on several complex projects, and she consistently demonstrated a deep expertise in DevOps, particularly with Kubernetes (K8s) and Docker. Her ability to design and manage scalable, containerized applications using Kubernetes is truly impressive, ensuring smooth deployment pipelines and seamless orchestration. Sajiya’s proficiency with Docker further enhances her capability to efficiently build, test, and deploy applications across various environments. In addition to her technical skills, Sajiya brings a collaborative and problem-solving mindset to the team. She is always ready to tackle challenges head-on, and her dedication to continuous improvement and automation has significantly optimized our workflows. I highly recommend Sajiya for any DevOps role, especially where Kubernetes and Docker expertise is essential.",
+      text: "I had the pleasure of working with Sajiya Das on several complex projects, and she consistently demonstrated a deep expertise in DevOps, particularly with Kubernetes (K8s) and Docker. Her ability to design and manage scalable, containerized applications using Kubernetes is truly impressive, ensuring smooth deployment pipelines and seamless orchestration. ",
     },
     {
       name: "jayshan_88e",
@@ -177,7 +177,7 @@ export default function Home() {
         <meta property="og:url" content="https://rkweb.dev" />
       </Head>
 
-      <div className="bg-white min-h-screen font-[Inter] relative">
+      <div className="bg-white text-black min-h-screen font-[Inter] relative">
         {/* Navbar */}
         <nav className="flex justify-between items-center p-6 ml-12 mr-12">
           <h1 className="text-lg font-bold">RKWEB</h1>
@@ -205,7 +205,7 @@ export default function Home() {
         </section>
 
         {/* Marquee Section */}
-        <div className="overflow-hidden w-full">
+        <div className=" bg-white overflow-hidden w-full">
           <div className="flex space-x-10 animate-marquee max-w-full">
             <span className="text-gray-700 font-medium">DevOps & Infrastructure</span>
             <span className="text-gray-700 font-medium">Cloud Solutions</span>
@@ -231,7 +231,7 @@ export default function Home() {
 
       </div>
 
-      <div className="m-20 max-w-6xl mx-auto flex flex-col items-center p-6 font-sans gap-5">
+      <div className="m-20 bg-white max-w-6xl mx-auto flex flex-col items-center p-6 font-sans gap-5">
   <div className="w-full max-w-9xl flex flex-col lg:flex-row items-start gap-10">
     {/* Left Section: Main Heading and Description */}
     <div className="md:flex-row flex-col">
@@ -246,7 +246,7 @@ export default function Home() {
 </div>
 
 {/* Right Section: DevOps Services */}
-<div className="flex max-w-6xl mx-auto m-20 flex-col lg:flex-row gap-6 w-full">
+<div className="flex bg-white max-w-6xl mx-auto m-20 flex-col lg:flex-row gap-6 w-full">
   {/* Left Column: DevOps Solutions Info */}
   <div className="lg:w-1/2">
     <h2 className="text-3xl font-serif italic mb-4">Optimize Your DevOps Workflow</h2>
@@ -292,7 +292,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="whitespace-nowrap relative flex flex-col items-center justify-center bg-white p-10">
+      <div className="whitespace-nowrap relative flex flex-col items-center justify-center text-black bg-white p-10">
         <h1
           ref={textRef}
           className="text-xl md:text-8xl font-serif italic text-center"
