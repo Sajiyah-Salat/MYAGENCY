@@ -40,7 +40,7 @@ export default function Home() {
     setSubmitting(true);
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('/api/contacts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -179,7 +179,7 @@ export default function Home() {
 
       <div className="bg-white text-black min-h-screen font-[Inter] relative">
         {/* Navbar */}
-        <nav className="flex justify-between items-center p-6 ml-12 mr-12">
+        <nav className="flex justify-between items-center p-6 md:ml-12 md:mr-12 mr-0 ml-0">
           <h1 className="text-lg font-bold">RKWEB</h1>
           <div className="space-x-4">
             <button onClick={() => window.open("https://calendly.com/salatsajiya7-8-6/30min", "_blank")} className="cursor-pointer text-sm">Book a call</button>
@@ -466,7 +466,7 @@ export default function Home() {
     <a href="https://www.upwork.com/fl/~01b55674f113e18603?mp_source=share" target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon icon={faUpwork} className="text-white text-2xl hover:opacity-80" />
     </a>
-    <a href="https://www.fiverr.com/sellers/sajiyah_salat" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.fiverr.com/sajiyah_salat?source=gig_page" target="_blank" rel="noopener noreferrer">
       <img src="/Fiverr.png" alt="fiverr account" width={30} height={30}/>
     </a> 
     <a href="https://www.linkedin.com/in/sajiya-salat-0a2a78245/" target="_blank" rel="noopener noreferrer">
