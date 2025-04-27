@@ -189,7 +189,7 @@ export default function Home() {
 
         {/* Hero Section */}
         <section className="md:flex-row flex-col flex justify-between text-center py-20 max-w-6xl mx-auto">
-  <h2 className="text-6xl font-bold tracking-tight leading-tight text-start">
+  <h2 className="text-6xl text-center font-bold tracking-tight leading-tight md:text-start">
     Empowering DevOps <br /> 
     <span className="text-gray-800"> Solutions</span>
     <span className="text-gray-600"> for Scalability</span>
@@ -231,14 +231,14 @@ export default function Home() {
 
       </div>
 
-      <div className="m-20 bg-white max-w-6xl mx-auto flex flex-col items-center p-6 font-sans gap-5">
+      <div className=" bg-white md:pl-52 md:pr-52 md:pb-10 md:pt-20 p-0 flex flex-col items-center  font-sans gap-5">
   <div className="w-full max-w-9xl flex flex-col lg:flex-row items-start gap-10">
     {/* Left Section: Main Heading and Description */}
     <div className="md:flex-row flex-col">
-      <h1 className="text-4xl ml-5 font-serif font-bold leading-tight mb-4 text-center">
+      <h1 className="text-gray-600 text-4xl ml-5 font-serif font-bold leading-tight mb-4 text-center">
         Powering Digital Transformation with <span className="text-black">RKWEB</span>
       </h1>
-      <p className="text-lg text-gray-700 mb-6">
+      <p className="text-lg text-center text-gray-700 mb-6">
         RKWEB specializes in seamless DevOps solutions: Automate, Scale, Secure. From CI/CD pipelines to cloud-native architecture, we optimize and streamline development workflows for efficiency and innovation.
       </p>
     </div>
@@ -246,10 +246,10 @@ export default function Home() {
 </div>
 
 {/* Right Section: DevOps Services */}
-<div className="flex bg-white max-w-6xl mx-auto m-20 flex-col lg:flex-row gap-6 w-full">
+<div className="flex bg-white md:pl-52 md:pr-52 md:pb-10 md:pt-20 p-0  flex-col lg:flex-row gap-6 w-full">
   {/* Left Column: DevOps Solutions Info */}
   <div className="lg:w-1/2">
-    <h2 className="text-3xl font-serif italic mb-4">Optimize Your DevOps Workflow</h2>
+    <h2 className="text-3xl font-serif italic mb-4 text-gray-600">Optimize Your DevOps Workflow</h2>
     <div className="p-6 rounded-lg shadow-md">
       <p className="text-gray-700 mb-4">
         We build scalable and automated DevOps environments tailored to your business needs, ensuring seamless development, deployment, and security.
@@ -467,7 +467,7 @@ export default function Home() {
       <FontAwesomeIcon icon={faUpwork} className="text-white text-2xl hover:opacity-80" />
     </a>
     <a href="https://www.fiverr.com/sajiyah_salat?source=gig_page" target="_blank" rel="noopener noreferrer">
-      <img src="/Fiverr.png" alt="fiverr account" width={30} height={30}/>
+      <img className="-translate-y-1" src="/Fiverr.png" alt="fiverr account" width={30} height={30}/>
     </a> 
     <a href="https://www.linkedin.com/in/sajiya-salat-0a2a78245/" target="_blank" rel="noopener noreferrer">
       <FontAwesomeIcon icon={faLinkedin} className="text-white text-2xl hover:opacity-80" />
