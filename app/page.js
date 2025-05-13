@@ -395,7 +395,7 @@ export default function Home() {
       <div className="pt-10 pb-10 bg-black text-white min-h-screen flex flex-col items-center justify-center px-6">
         <div className="max-w-5xl w-full">
           <div className="flex justify-between items-center mb-10">
-            <div className="bg-white text-black px-4 py-1 rounded-full text-sm font-semibold">RKweb Agency</div>
+            <div className="bg-white text-black md:block hidden px-4 py-1 rounded-full text-sm font-semibold">RKweb Agency</div>
             <div className="flex space-x-4">
               <button  onClick={() => window.location.href = ("https://calendly.com/salatsajiya7-8-6/30min" , "_blank")} className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold cursor-pointer">Book a Call</button>
               <button onClick={() => window.open("https://www.linkedin.com/in/sajiya-salat-0a2a78245/", "_blank")} className="text-white text-sm font-semibold cursor-pointer">→ Let's Connect</button>
@@ -473,6 +473,15 @@ export default function Home() {
       <FontAwesomeIcon icon={faLinkedin} className="text-white text-2xl hover:opacity-80" />
     </a>
   </div>
+              <footer style="margin-top:40px; text-align: center; padding: 1rem; background-color: #000; color: white;">
+  <p>
+    Developed by 
+    <a href="https://www.linkedin.com/in/salatmahenoor" target="_blank" style="color: #00acee; text-decoration: none;">
+      Mahenoor Salat
+    </a> 
+    — All rights reserved © 2025
+  </p>
+</footer>
         </div>
       </div>
     </>
