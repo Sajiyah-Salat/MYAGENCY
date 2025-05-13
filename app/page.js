@@ -473,7 +473,14 @@ export default function Home() {
       <FontAwesomeIcon icon={faLinkedin} className="text-white text-2xl hover:opacity-80" />
     </a>
   </div>
-              <footer style="margin-top:40px; text-align: center; padding: 1rem; background-color: #000; color: white;">
+              
+    <footer   style={{
+    marginTop: "40px",
+    textAlign: "center",
+    padding: "1rem",
+    backgroundColor: "#000",
+    color: "white"
+  }}>
   <p>
     Developed by 
     <a href="https://www.linkedin.com/in/salatmahenoor" target="_blank" style="color: #00acee; text-decoration: none;">
