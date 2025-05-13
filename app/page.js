@@ -473,22 +473,32 @@ export default function Home() {
       <FontAwesomeIcon icon={faLinkedin} className="text-white text-2xl hover:opacity-80" />
     </a>
   </div>
-              
-    <footer   style={{
+<footer
+  style={{
     marginTop: "40px",
     textAlign: "center",
     padding: "1rem",
     backgroundColor: "#000",
     color: "white"
-  }}>
+  }}
+>
   <p>
-    Developed by 
-    <a href="https://www.linkedin.com/in/mahenoor-salat/" target="_blank" style="color: #00acee; text-decoration: none;">
+    Developed by{" "}
+    <a
+      href="https://www.linkedin.com/in/mahenoor-salat/"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        color: "#00acee",
+        textDecoration: "none"
+      }}
+    >
       Mahenoor Salat
-    </a> 
+    </a>{" "}
     — All rights reserved © 2025
   </p>
 </footer>
+
         </div>
       </div>
     </>
