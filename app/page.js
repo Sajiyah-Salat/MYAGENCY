@@ -92,7 +92,7 @@ export default function Home() {
       name: "Tobias Jany",
       position: "Senior Designer at Design Studio",
       image: "/tobias.jpeg",
-      text: "I had the pleasure of working with Sajiya Das on several complex projects, and she consistently demonstrated a deep expertise in DevOps, particularly with Kubernetes (K8s) and Docker. Her ability to design and manage scalable, containerized applications using Kubernetes is truly impressive, ensuring smooth deployment pipelines and seamless orchestration. ",
+      text: "I had the pleasure of working with Sajiya on several complex projects, and she consistently demonstrated a deep expertise in DevOps, particularly with Kubernetes (K8s) and Docker. Her ability to design and manage scalable, containerized applications using Kubernetes is truly impressive, ensuring smooth deployment pipelines and seamless orchestration. ",
     },
     {
       name: "jayshan_88e",
