@@ -483,7 +483,7 @@ export default function Home() {
   }}>
   <p>
     Developed by 
-    <a href="https://www.linkedin.com/in/salatmahenoor" target="_blank" style="color: #00acee; text-decoration: none;">
+    <a href="https://www.linkedin.com/in/mahenoor-salat/" target="_blank" style="color: #00acee; text-decoration: none;">
       Mahenoor Salat
     </a> 
     — All rights reserved © 2025
